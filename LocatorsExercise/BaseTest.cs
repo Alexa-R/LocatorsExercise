@@ -8,10 +8,10 @@ namespace LocatorsExercise
         [SetUp]
         public void SetUpTest()
         {
-            //https://www.onliner.by/
+            //https://www.onliner.by
             //https://catalog.onliner.by/mobile/poco/x3nfc6128gbblue
-            //https://r.onliner.by/pk/
-            //https://forum.onliner.by/
+            //https://r.onliner.by/pk
+            //https://forum.onliner.by
             //https://s.onliner.by/tasks
             //https://catalog.onliner.by/mobile
             WebDriverFactory.InitBrowser("Chrome");
