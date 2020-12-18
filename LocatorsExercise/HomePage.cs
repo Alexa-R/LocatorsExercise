@@ -26,7 +26,7 @@ namespace LocatorsExercise
         //[FindsBy(How = How.XPath, Using = "//*[text()='Важное']/ancestor::div[@class='h-hottopics']//li")]
         //[FindsBy(How = How.XPath, Using = "//*[@property='status']//li")]
         //[FindsBy(How = How.XPath, Using = "//*[@class='footer-style__list']/li")]
-        [FindsBy(How = How.XPath, Using = "//ul[contains(@class,'classifier_brand')]/li")]
+        //[FindsBy(How = How.XPath, Using = "//ul[contains(@class,'classifier_brand')]/li")]
         private IWebElement Locator;
 
         public bool IsLocatorDisplayed()
