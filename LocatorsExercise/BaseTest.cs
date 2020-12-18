@@ -1,6 +1,5 @@
-using System.Configuration;
 using NUnit.Framework;
-namespace OnlinerTestProject.TestCases
+namespace LocatorsExercise
 {
     [TestFixture]
     public class BaseTest
@@ -9,9 +8,11 @@ namespace OnlinerTestProject.TestCases
         [SetUp]
         public void SetUpTest()
         {
-            
+            //https://www.onliner.by/
+            //https://catalog.onliner.by/mobile/poco/x3nfc6128gbblue
+            //
             WebDriverFactory.InitBrowser("Chrome");
-            WebDriverFactory.GoToUrl("");
+            WebDriverFactory.GoToUrl("https://www.onliner.by/");
             WebDriverFactory.Driver.Manage().Window.Maximize();
         }
 

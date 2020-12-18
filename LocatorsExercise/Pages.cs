@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium.Support.PageObjects;
 
-namespace OnlinerTestProject.PageObjects
+namespace LocatorsExercise
 {
     public static class Pages
     {
@@ -12,6 +12,5 @@ namespace OnlinerTestProject.PageObjects
         }
 
         public static HomePage HomePage => GetPage<HomePage>();
-
     }
 }
