@@ -2,7 +2,7 @@
 
 namespace LocatorsExercise
 {
-    public static class Page
+    public static class Pages
     {
         private static T GetPage<T>() where T : new()
         {
