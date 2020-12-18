@@ -7,8 +7,7 @@ namespace LocatorsExercise
         [Test]
         public void LocatorIsDisplayed()
         {
-           Assert.IsTrue(Pages.HomePage.IsLocatorDisplayed());
-
+           Assert.IsTrue(Page.HomePage.IsLocatorDisplayed());
         }
     }
 }

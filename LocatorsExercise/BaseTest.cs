@@ -10,9 +10,12 @@ namespace LocatorsExercise
         {
             //https://www.onliner.by/
             //https://catalog.onliner.by/mobile/poco/x3nfc6128gbblue
-            //
+            //https://r.onliner.by/pk/
+            //https://forum.onliner.by/
+            //https://s.onliner.by/tasks
+            //https://catalog.onliner.by/mobile
             WebDriverFactory.InitBrowser("Chrome");
-            WebDriverFactory.GoToUrl("https://www.onliner.by/");
+            WebDriverFactory.GoToUrl("https://catalog.onliner.by/mobile");
             WebDriverFactory.Driver.Manage().Window.Maximize();
         }
 
